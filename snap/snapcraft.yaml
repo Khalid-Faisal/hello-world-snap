@@ -1,0 +1,20 @@
+name: hello-world-snap # you probably want to 'snapcraft register <name>'
+base: core20 # the base snap is the execution environment for this snap
+version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
+summary: print Hello World on Console # 79 char long summary
+description: |
+  This is a basic snap to demonstrate procedure to create a snap.
+  This snap will just print hello world!
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+apps:
+  hello:
+    command: ./hello.sh
+
+parts:
+  hello:
+    # See 'snapcraft plugins'
+    plugin: dump
+    source: .
