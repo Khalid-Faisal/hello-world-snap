@@ -2,10 +2,10 @@
 
 Demonstration of a creating a snap
 
-##Description
+## Description
 This repository is for completely beginner in ubuntu core, IoT, snapcraft world. This repo demonstrate the basicHello World snap.
 
-##Steps
+## Steps
 ```
 ubuntu@khalid:UbuntuCore$ mkdir hello-world
 ubuntu@khalid:UbuntuCore$ sudo chmod -R 777 hello-world
