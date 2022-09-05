@@ -10,7 +10,7 @@ This repository is for completely beginner in ubuntu core, IoT, snapcraft world.
 ubuntu@khalid:UbuntuCore$ mkdir hello-world
 ubuntu@khalid:UbuntuCore$ sudo chmod -R 777 hello-world
 ubuntu@khalid:UbuntuCore$ cd hello-world
-ubuntu@khalid:hello-world$ sudo lxc exec <Linux-container-name> -- su ubuntu
+ubuntu@khalid:hello-world$ sudo lxc exec <Linux-container-name> -- su ubuntu  #LXC is a ubuntu container
 ubuntu@ubuntu20:/root$ cd
 ubuntu@ubuntu20:~$ cd hello-world
 ubuntu@ubuntu20:~hello-world$ snapcraft init
